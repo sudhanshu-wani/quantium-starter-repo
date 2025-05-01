@@ -28,13 +28,14 @@ app.layout = html.Div(
     children=[
         html.H1(
             "Pink Morsel Sales Visualiser",
+            id="header",
             className="header"
         ),
         html.Div(
             [
                 html.Label("Select Region:", className="radio-label"),
                 dcc.RadioItems(
-                    id='region-radio',
+                    id='region_picker',
                     options=region_options,
                     value='all',
                     inline=True,
@@ -43,7 +44,7 @@ app.layout = html.Div(
             ],
             className="radio-container"
         ),
-        dcc.Graph(id='sales-line-chart', className="chart"),
+        dcc.Graph(id='visualization', className="chart"),
         html.P(
             "Red dashed line marks the price increase on Jan 15, 2021.",
             className="note"
@@ -110,4 +111,4 @@ if __name__ == '__main__':
     os.makedirs('assets', exist_ok=True)
     # Write a sample CSS file if not present
     css_path = os.path.join('assets', 'style.css')
-    app.run(debug=True)
+    app.run(debug=True, use_reloader=False)
