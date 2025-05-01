@@ -1,0 +1,43 @@
+
+body {
+    background: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    background: white;
+    border-radius: 16px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+    padding: 32px 32px 24px 32px;
+}
+.header {
+    text-align: center;
+    color: #e17055;
+    font-size: 2.5rem;
+    margin-bottom: 12px;
+    letter-spacing: 1px;
+}
+.radio-container {
+    text-align: center;
+    margin-bottom: 24px;
+}
+.radio-label {
+    font-weight: bold;
+    margin-right: 12px;
+    color: #636e72;
+    font-size: 1.1rem;
+}
+.radio-group .dash-radioitem {
+    margin-right: 18px;
+}
+.chart {
+    margin-bottom: 18px;
+}
+.note {
+    text-align: center;
+    color: #636e72;
+    font-style: italic;
+    margin-top: 18px;
+}
+            
