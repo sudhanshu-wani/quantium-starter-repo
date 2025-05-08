@@ -1,2 +1,3 @@
 # Quantium starter repo
-This repo contains everything you need to get started on the program! Good luck!
+This repo is now complete as per the guidelines of the Job Simulation, loved it! 
+Thank you
